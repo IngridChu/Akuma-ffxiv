@@ -6,13 +6,17 @@ Helper bot for the Free Company Akuma.
 - name change when linked to ff lodestone
 - member join message
 - role selection
+- gender selection
 
 Note: Since the bot is still updating, the files on this GitHub might be out of date. 
 
 ## Commands:
 
 - **!iam (server) (FirstName) (LastName)** - Links loadstone with the member and change the member's nickname to their in game name. 
-- **!setUpRoles** - Creates the get role embed. The channel name must be "get-role".
+- **!setUpRoles** - Creates the get role embed.
+- **!giveJobSetUp everyone** - Sets the role (Tanks, Healers, DPS) for everyone in the server.
+- **!setUp gender** - Creates the gender embed.
+- **!ARandomEvent** - Creates the random event embed. (WIP, need events to input)
 
 ## Installation:
 
@@ -21,6 +25,5 @@ Note: Since the bot is still updating, the files on this GitHub might be out of 
 
 ...And that's it! I hope you find this bot useful :)
 
-Any Bugs? Contact me at:
-ingridchu1128@gmail.com OR
-contact me in game
+Any Bugs? 
+contact me in game.
