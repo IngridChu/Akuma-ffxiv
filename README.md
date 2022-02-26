@@ -1,6 +1,6 @@
 # AKUMA_BOT
 
-Helper bot for the Free Company Akuma.
+Helper bot for the Free Company Akuma in Final Fantasy XIV.
 
 ## Current Features:
 - name change when linked to ff lodestone
