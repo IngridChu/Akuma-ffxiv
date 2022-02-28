@@ -10,7 +10,7 @@ import net.dv8tion.jda.api.utils.MemberCachePolicy;
 public class Main {
 
     // TODO: \ Before sending the emotes
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         JDA jda = JDABuilder.createDefault(TOKEN)
                 .setChunkingFilter(ChunkingFilter.ALL)
                 .setMemberCachePolicy(MemberCachePolicy.ALL)
@@ -26,6 +26,7 @@ public class Main {
         jda.addEventListener(new GrantInitialJobs());
         jda.addEventListener(new PronounsRole());
         jda.addEventListener(new RandomEventSender());
+        jda.addEventListener(new Static2RaidReminder());
 
 
         jda.getPresence().setActivity(Activity.playing("with Rory❤️❤️❤️"));

@@ -14,6 +14,7 @@ import java.util.Objects;
 public class GetRoles extends ListenerAdapter {
 
 
+
     public void onGuildMessageReceived(@NotNull GuildMessageReceivedEvent event) {
         try {
             String[] message = event.getMessage().getContentRaw().split(" ");
